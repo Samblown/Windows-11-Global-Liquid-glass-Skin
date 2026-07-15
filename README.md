@@ -1,69 +1,93 @@
 # LiquidGlass
 
 <p align="center">
+<b>A universal Liquid Glass acrylic experience for Windows 11 powered by Windhawk.</b>
+</p>
 
-A universal Liquid Glass acrylic theme for Windows 11 powered by Windhawk.
-
+<p align="center">
+Bringing translucent blur, depth, and modern glass aesthetics to your Windows desktop.
 </p>
 
 ---
 
-## Overview
+# Preview
 
-LiquidGlass brings a modern translucent acrylic appearance to Windows 11 applications.
-
-It applies a system-wide blur effect with a dark glass tint, creating a cleaner and more immersive desktop experience.
-
----
-
-## Preview
-
-Coming soon.
+Coming Soon
 
 Preview images will be added here:
 
-- 35% Tint Opacity
-- 55% Tint Opacity
+- 35% Glass Opacity Preview
+- 55% Glass Opacity Preview
 - File Explorer
 - Windows Settings
 - Windows Terminal
+- Before / After Comparison
 
 ---
 
-## Features
+# About
 
-✨ Universal acrylic blur effect
+LiquidGlass is a Windhawk modification that applies a system-wide acrylic blur effect with a dark glass tint to Windows 11 windows.
 
-✨ Dark liquid glass tint
-
-✨ Adjustable opacity control
-
-✨ Works across multiple Windows applications
-
-✨ Lightweight implementation
-
-✨ Windhawk compatible
+Inspired by modern glass-based UI design, LiquidGlass creates a cleaner and more immersive desktop experience while keeping the native Windows interface intact.
 
 ---
 
-## Installation
+# Features
 
-### Requirements
+✨ Universal Acrylic Blur
+
+Applies Windows acrylic blur effects across supported top-level windows.
+
+✨ Adjustable Glass Opacity
+
+Control the strength of the dark glass tint.
+
+✨ System-Wide Effect
+
+Designed to work across multiple Windows applications.
+
+✨ Lightweight
+
+Uses Windows composition APIs instead of replacing the Windows shell.
+
+✨ Native Windows Experience
+
+Keeps the original Windows interface while adding a glass aesthetic.
+
+---
+
+# Installation
+
+## Requirements
 
 - Windows 11
 - Windhawk
 
-### Steps
+## Steps
 
 1. Install Windhawk.
-2. Import the LiquidGlass mod.
-3. Enable the mod.
-4. Adjust the tint opacity setting.
-5. Restart applications if required.
+2. Download `LiquidGlass.wh.cpp`.
+3. Open Windhawk.
+4. Select Create Mod.
+5. Import the LiquidGlass code.
+6. Compile and enable the mod.
+7. Adjust opacity settings.
 
 ---
 
-## Compatibility
+# Configuration
+
+| Setting | Description | Default |
+|---|---|---|
+| Glass Opacity | Controls darkness of the glass tint | 35% |
+35% - Subtle glass
+55% - Dark premium glass
+80% - Heavy dark glass
+
+---
+
+# Compatibility
 
 Tested on:
 
@@ -72,33 +96,78 @@ Tested on:
 
 Some applications may not fully support acrylic effects depending on how they render their interface.
 
----
+Examples:
 
-## Configuration
-
-Current settings:
-
-| Setting | Description |
-|---|---|
-| Tint Opacity | Controls the darkness of the glass overlay |
+- Chromium applications
+- Electron applications
+- Games
+- Custom GPU rendered software
 
 ---
 
-## Roadmap
+# Technical Details
 
-Future improvements:
+LiquidGlass uses Windows composition features:
+
+- SetWindowCompositionAttribute
+- ACCENT_ENABLE_ACRYLICBLURBEHIND
+- Desktop Window Manager (DWM)
+
+Because these APIs are undocumented, future Windows updates may affect compatibility.
+
+---
+
+# Roadmap
+
+## Version 1.x
+
+Completed:
+
+- [x] Acrylic blur
+- [x] Dark tint overlay
+- [x] Adjustable opacity
+- [x] Universal window support
+
+Planned:
 
 - [ ] Custom tint colors
 - [ ] Blur intensity control
 - [ ] Mica material option
+- [ ] HostBackdrop support
 - [ ] Per-application profiles
-- [ ] Automatic accent color matching
+- [ ] Accent color synchronization
 
 ---
 
-## Credits
+# Screenshots
 
-Created by **Samuel Mwaandwe**
+Screenshots will be added here.
+
+Planned:
+assets/
+
+preview-35.png
+preview-55.png
+explorer.png
+settings.png
+terminal.png
+comparison.gif
+
+---
+
+# Contributing
+
+Suggestions, improvements, and contributions are welcome.
+
+Feel free to open an issue or submit a pull request.
+
+---
+
+# Credits
+
+Created by:
+
+Samuel Mwaandwe
 
 Powered by:
 
@@ -107,6 +176,10 @@ Powered by:
 
 ---
 
-## License
+# License
 
 MIT License
+
+See the LICENSE file for details.
+
+Example:
