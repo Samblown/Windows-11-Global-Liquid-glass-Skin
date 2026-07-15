@@ -1,10 +1,10 @@
 // ==WindhawkMod==
-// @id              universal-liquid-glass-tint
-// @name            Universal Liquid Glass Tint
-// @description     Adds a translucent acrylic "liquid glass" blur with a dark tint to every window on the system
-// @version         1.0
-// @author          YourName
-// @github          https://github.com/yourname
+// @id              liquid-glass
+// @name            LiquidGlass
+// @description     Brings a universal acrylic liquid glass effect with adjustable dark tint to Windows 11
+// @version         1.0.0
+// @author          Samuel Mwaandwe
+// @github          https://github.com/YOUR_USERNAME/LiquidGlass
 // @include         *
 // @compilerOptions -luser32
 // ==/WindhawkMod==
